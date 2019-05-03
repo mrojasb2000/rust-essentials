@@ -6,4 +6,9 @@ fn main(){
     let _energy_with_type = 5u16;
     let copy_energy = warning_energy;
     println!("Your energy is {}", copy_energy);
+
+    let level_title = "Level 1";
+    let dead = false;
+    let magic_number = 3.14f32;
+    let empty = (); // the value of the unit type ()
 }
