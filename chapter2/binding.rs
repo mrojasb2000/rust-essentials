@@ -11,4 +11,6 @@ fn main(){
     let dead = false;
     let magic_number = 3.14f32; // 3.14_f32 the _ separates the digits from the type
     let empty = (); // the value of the unit type ()
+
+    warning_energy = 25;
 }
