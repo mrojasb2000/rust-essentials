@@ -12,4 +12,5 @@ fn main(){
     println!("MAX_HEALTH is {:x} in hexadecimal", MAX_HEALTH);
     println!("MAX_HEALTH is {:b} in binary", MAX_HEALTH);
     println!("Two written in binary {0:b}", 2);
+    println!("PI is {:e} in floating point notation", MYPI);
 }
