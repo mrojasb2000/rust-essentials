@@ -9,6 +9,7 @@ fn main(){
     let player1 = "Rob";
     let player2 = "Jane";
     //let player3 = player1.to_owned() + player2;
-    let player3 = player1.to_string() + player2;
+    //let player3 = player1.to_string() + player2;
+    let player3 = format!("{} {}", player1, player2);
     println!("Players: {}", player3);
 }
